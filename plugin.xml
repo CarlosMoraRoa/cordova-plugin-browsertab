@@ -29,8 +29,8 @@
         <framework src="com.android.support:customtabs:23.3.0"/>
   
         <source-file src="src/android/res/browsertab.xml" target-dir="res/values" />
-        <config-file target="app/src/main/res/values/browsertab.xml" parent="/*">
-            <string name="CUSTOM_TAB_COLOR_RGB">$CUSTOM_TAB_COLOR_RGB</string>
+        <config-file target="res/values/browsertab.xml" parent="/*">
+          <string name="CUSTOM_TAB_COLOR_RGB">$CUSTOM_TAB_COLOR_RGB</string>
         </config-file>
     </platform>
 
